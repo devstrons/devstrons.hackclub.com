@@ -24,6 +24,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
@@ -38,6 +39,7 @@ body {
 
 .content {
 	position: relative;
+	margin-left: 15rem;
 }
 
 .content h2 {
@@ -85,5 +87,31 @@ body {
 			100% 100%,
 			0% 100%
 		);
+	}
+}
+
+.flex-config{
+	padding-top: 1rem;
+}
+
+.buttons {
+margin-top: 7rem;
+display: flex !important;
+	.btn {
+		background: #40AAF4;
+		border-color: #40AAF4;
+		font-size: 2rem;
+		color: black;
+		margin-left: 1vh;
+		margin-right: 1vh;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		border-radius: 10px;
+		border: none;
+	}
+	.btn:hover {
+		transform: scale(1.02);
+		background: #40AAF4;
+		color: white;
 	}
 }
