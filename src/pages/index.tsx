@@ -8,7 +8,7 @@ import React from 'react'
 const HomePage: NextPage = () => {
   return (
     <Page title="Home">
-      <div className="flex h-screen bg-slate-900">
+      <div className="flex h-screen overflow-y-auto bg-slate-900">
         <section className="m-auto flex flex-col items-center gap-4">
           <div className="relative -mb-8 h-40 w-40 shrink-0">
             <Image src="/assets/waving-devtrons-icon.gif" layout="fill" />
