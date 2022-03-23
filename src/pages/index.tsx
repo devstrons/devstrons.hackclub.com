@@ -5,13 +5,13 @@ import React from 'react'
 const Home: NextPage = () => {
   return (
     <>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-      crossOrigin="anonymous"
-      referrerPolicy='no-referrer'
-    />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossOrigin="anonymous"
+        referrerPolicy="no-referrer"
+      />
 
       <div>
         <Head>
@@ -20,38 +20,27 @@ const Home: NextPage = () => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div className='content'>
+        <div className="content">
           <h2>DEVSTRONS'</h2>
           <h2>DEVSTRONS'</h2>
         </div>
 
         <div className="flex-config">
           <div className="buttons">
-            <a
-              href="https://dsc.gg/devstrons"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
+            <a href="https://dsc.gg/devstrons" rel="noopener noreferrer" target="_blank">
               <div className="btn">
-                Join Discord
-                &nbsp;
+                Join Discord &nbsp;
                 <i className="fa-solid fa-user-group"></i>
               </div>
             </a>
-            <a
-              href="https://devstrons.bio.link"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
+            <a href="https://devstrons.bio.link" rel="noopener noreferrer" target="_blank">
               <div className="btn">
-                Follow Us
-                &nbsp;
+                Follow Us &nbsp;
                 <i className="fa-solid fa-shuttle-space"></i>
               </div>
             </a>
           </div>
         </div>
-
       </div>
     </>
   )
