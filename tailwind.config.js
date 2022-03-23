@@ -1,10 +1,23 @@
+// @ts-check
+const colors = require('tailwindcss/colors')
+
+/** @type {import("tailwindcss/tailwind-config").TailwindConfig} */
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['src/**/*.tsx'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        accent: colors.yellow['400'],
+      },
+      fontFamily: {
+        poppins: 'Poppins',
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography')({
+      className: 'markdown',
+    }),
+  ],
 }

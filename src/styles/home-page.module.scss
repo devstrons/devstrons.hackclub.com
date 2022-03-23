@@ -1,0 +1,49 @@
+@tailwind components;
+
+@layer components {
+  .water-effect {
+    @apply relative font-poppins text-[clamp(3rem,10vw,7rem)] font-semibold uppercase leading-none text-sky-500;
+    &::before,
+    &::after {
+      @apply block content-[attr(data-text)];
+    }
+    &::before {
+      -webkit-text-stroke: 0.025em #0ea5e9;
+      @apply absolute top-0 left-0 text-transparent;
+    }
+    &::after {
+      animation: waves 4s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes waves {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}

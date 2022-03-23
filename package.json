@@ -2,6 +2,9 @@
   "name": "devstrons.hackclub.com",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^16"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,10 +19,14 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.2",
     "@types/node": "17.0.21",
     "@types/react": "17.0.41",
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",
+    "prettier": "^2.6.0",
+    "prettier-plugin-tailwindcss": "^0.1.8",
     "tailwindcss": "^3.0.23",
     "typescript": "4.6.2"
   }

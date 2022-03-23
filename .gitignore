@@ -37,6 +37,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
+# folders
+delete_me
+
 # files
 package-lock.json
 yarn.lock
