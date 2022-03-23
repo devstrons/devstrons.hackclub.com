@@ -4,7 +4,7 @@ export default function Page({ title, children }) {
   return (
     <>
       <Head>
-        <title>{title} — Devstrons</title>
+        <title>{title} — DEVSTRONS'</title>
       </Head>
       {children}
     </>
