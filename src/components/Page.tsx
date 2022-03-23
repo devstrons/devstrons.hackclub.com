@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Page({ title, children }) {
+const Page: React.FC<{ title: string }> = ({ title, children }) => {
   return (
     <>
       <Head>
@@ -10,3 +10,5 @@ export default function Page({ title, children }) {
     </>
   )
 }
+
+export default Page
