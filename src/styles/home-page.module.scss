@@ -2,7 +2,7 @@
 
 @layer components {
   .water-effect {
-    @apply relative font-poppins text-[clamp(3rem,10vw,7rem)] font-semibold uppercase leading-none text-sky-500;
+    @apply relative font-poppins text-[clamp(3rem,10vw,7rem)] font-semibold leading-none text-sky-500;
     &::before,
     &::after {
       @apply block content-[attr(data-text)];

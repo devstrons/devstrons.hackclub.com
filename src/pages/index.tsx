@@ -9,8 +9,8 @@ const HomePage: NextPage = () => {
     <Page title="Home">
       <div className="flex h-screen overflow-y-auto bg-slate-900">
         <section className="m-auto flex flex-col items-center gap-4">
-          <div className="relative -mb-8 h-40 w-40 shrink-0">
-            <Image src="/assets/waving-devtrons-icon.gif" layout="fill" />
+          <div className="relative -m-8 h-40 w-40 shrink-0">
+            <Image src="/assets/waving-devtrons-icon.gif" layout="fill" priority />
           </div>
           <div className="">
             <h1 data-text="DEVSTRONS'" className={styles['water-effect']} />
@@ -20,7 +20,7 @@ const HomePage: NextPage = () => {
               <span className="inline-block px-4 uppercase transition-all hover:text-[1.1em] hover:text-sky-500">
                 Learn
               </span>
-              <span className="inline-block px-4 uppercase transition-all text-sky-500 hover:text-[1.1em] hover:text-white">
+              <span className="inline-block  px-4 uppercase text-sky-500 transition-all hover:text-[1.1em] hover:text-inherit">
                 Code
               </span>
               <span className="inline-block px-4 uppercase transition-all hover:text-[1.1em] hover:text-sky-500">
