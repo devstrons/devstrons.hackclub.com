@@ -38,7 +38,7 @@ const HomePage: NextPage = () => {
             </a>
             <a
               className="block rounded-md border-2 border-transparent bg-sky-500 px-4 py-2 text-center text-slate-800 transition-colors hover:border-current hover:bg-slate-900 hover:text-slate-50"
-              href="https://devstrons.bio.link"
+              href="https://znap.link/devstrons"
               rel="noopener noreferrer"
               target="_blank">
               Follow Us <i className="fa-solid fa-shuttle-space ml-1" />
