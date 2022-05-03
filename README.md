@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p style="text-align:center;" align="center">
+  <a href="https://devstrons.bio.link/">
+   <img align="center" src="https://github.com/devstrons/artwork/blob/master/Stock%20assets/Logo/horizontal-with-devstrons.png" width="90%" /></p>
+  </a>
+<p align="center">
+<a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Adevstrons+" alt="Help wanted across orgs">
+<img alt="Help wanted across orgs" src="https://img.shields.io/github/issues-search?label=help%20wanted&query=is%3Aopen%20is%3Aissue%20archived%3Afalse%20org%3Adevstrons"></a>
 
-## Getting Started
+<a href="https://github.com/devstrons" alt="DEVSTRONS' contributors">
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/devstrons/heloworld"></a>
 
-First, run the development server:
+<a href="https://discord.gg/MVujzTBqed" alt="DEVSTRONS' Discord">
+<img src="https://img.shields.io/discord/857641826953854987?color=blue&label=DEVSTRONS'&logo=discord" /></a>
+  
+<a href="https://twitter.com/devstrons" alt="Follow @devstrons on Twitter">
+<img src="https://img.shields.io/twitter/follow/devstrons?label=devstrons&style=social" /></a>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<a href="https://github.com/devstrons/devstrons.hackclub.com" alt="License">
+<img src="https://img.shields.io/github/license/devstrons/hello-world.svg" /></a>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br />
+<p align="center">
+  <a href="https://devstrons.bio.link/"> <i><b>DEVSTRONS'</b></a> is a student-run Open source/ project-based, inclusive & diverse community intending to Learn, Code & Tron (grow). An organization bridging a gap between beginners and professionals to provide opportunities/resources to the folks around.</i>
+</p>
